@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_SERVER:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB_NAME:blogDB}?useUnicode=true&characterEncoding=utf-8
-    username: ${MYSQL_USER_TEST:root}
-    password: ${MYSQL_PASSWORD_TEST:password}
+    url: jdbc:mysql://mysql57:3306/blogDB?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: password
 #    data: classpath:data.sql
 #    initialization-mode: ALWAYS
   jpa:
